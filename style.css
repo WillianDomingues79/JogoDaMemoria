@@ -9,13 +9,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 150vh;
+  height: 100vh;
   background-color: #c7cdd3;
 }
 
 .card{
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   position: relative;
   transform-style: preserve-3d;
   transition: transform .5s;
@@ -33,6 +33,12 @@ body {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.45);
   backface-visibility: hidden;
 }
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
 
 .flip {
   transform: rotateY(180deg);
@@ -73,6 +79,7 @@ body {
   border-radius: 10px;
   margin-top: 10px;
 }
+
 
 /* ------------------ GAME BOARD ------------------ */
 #gameBoard {
